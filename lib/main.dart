@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:todo/pages/chat_screen.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:todo/pages/status_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -25,6 +27,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage>
     with SingleTickerProviderStateMixin {
   TabController _tabController;
+  final data = Firestore.instance.collection('chat');
 
   @override
   void initState() {
@@ -82,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage>
           children: [
             Center(child: Text("Camera page")),
             ChartScreen(),
-            Center(child: Text("status page")),
+            StatusScreen(),
             Center(child: Text("calls page")),
           ],
         ),

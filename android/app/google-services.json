@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "510469586791",
+    "firebase_url": "https://whatsappchat-7b085.firebaseio.com",
+    "project_id": "whatsappchat-7b085",
+    "storage_bucket": "whatsappchat-7b085.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510469586791:android:5c8e3c7bb643a8a230b9c2",
+        "android_client_info": {
+          "package_name": "com.example.todo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510469586791-h0uuorjegf9v34o3s22hlbdj75h63tbm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABrsEuH8c7ER2aJ9zEf6Y0WXa1ydXuH8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510469586791-h0uuorjegf9v34o3s22hlbdj75h63tbm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
